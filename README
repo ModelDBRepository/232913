@@ -1,0 +1,28 @@
+Model-based smoothing of noisy voltage measurements. This code is released in
+conjunction with the following publication 
+
+  Huys QJ and Paninski L (2007): Model-based filtering of, and parameter
+  estimation from, noisy biophysical observations. 
+  (available at http://www.gatsby.ucl.ac.uk/~qhuys/pub.html)
+
+and can be downloaded from 
+
+  http://www.gatsby.ucl.ac.uk/~qhuys/code.html
+
+SmoothVoltageData.m is a MATLAB m-file, which containts a few functions. 
+
+It sets up a single-compartment cell with Hodgkin-Huxley channels, adds noise to
+the voltage and then and runs a particle smoother on data to recover the
+underlying voltage. 
+
+To run it, add this folder to the MATLAB path, type 
+
+	SmoothVoltageData
+
+and hit return. 
+
+Copyright Quentin Huys 2007 October 1st, 2007 
+Center for Theoretical Neuroscience, Columbia University 
+Email: qh  uys [at] gat s b y  [dot] u c l . ac. u k 
+Web: http://www.gatsby.ucl.ac.uk/~qhuys
+(just get rid of the spaces, replace [at] with @ and [dot] with .)
